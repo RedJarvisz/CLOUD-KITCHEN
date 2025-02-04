@@ -8,7 +8,7 @@ A Cloud-Kitchen is a cloud-based kitchen management platform designed to streaml
 
 **1. Define System Requirements and Architecture**
 
-   1.1 Core Functionalities
+1.1 Core Functionalities
 
 - Restaurant & Kitchen Management: Track orders, inventory, and kitchen workflow.
 - Order Processing & Delivery: Manage orders from multiple platforms.
@@ -17,7 +17,7 @@ A Cloud-Kitchen is a cloud-based kitchen management platform designed to streaml
 - User Authentication: Secure login via AWS Cognito or custom authentication.
 - Monitoring & Logging: Use AWS CloudWatch for performance tracking.
 
-   1.2 Tech Stack & AWS Services
+1.2 Tech Stack & AWS Services
 
 - Compute: EC2 (for backend services), Lambda (for serverless processing).
 - Storage: S3 (for storing images, menus, invoices), EBS (for EC2 storage).
@@ -26,14 +26,14 @@ A Cloud-Kitchen is a cloud-based kitchen management platform designed to streaml
 - Monitoring: CloudWatch (for logs, alerts, and system health monitoring).
 - Security: IAM (for access control), AWS Cognito (optional for authentication).
 
-   1.3 Architecture Diagram
+1.3 Architecture Diagram
 
 - Clients (Mobile App, Web) → API Gateway → Lambda/EC2 (Backend Services) → RDS/S3 → CloudWatch for monitoring
 
 
 **2. Setting Up AWS Infrastructure**
    
-   2.1 Deploying the Backend on AWS EC2
+2.1 Deploying the Backend on AWS EC2
 
    1. Create an EC2 Instance
      - Choose Amazon Linux 2 or Ubuntu.
@@ -57,7 +57,7 @@ A Cloud-Kitchen is a cloud-based kitchen management platform designed to streaml
 
 **3. API Development & Integration**
 
-   3.1 Developing APIs with API Gateway & Lambda
+3.1 Developing APIs with API Gateway & Lambda
 
    - Create API Gateway Endpoints (e.g., /orders, /inventory, /payments).
    - Connect API Gateway to AWS Lambda for serverless execution.
@@ -71,7 +71,7 @@ exports.handler = async (event) => {
 };
 ```
 
-   3.2 Implementing Authentication & Security
+3.2 Implementing Authentication & Security
 
    - Use JWT-based authentication or AWS Cognito.
    - Restrict API access using IAM roles & API Gateway policies.
@@ -79,13 +79,13 @@ exports.handler = async (event) => {
 
 **4. Deploying and Scaling the Application**
 
-   4.1 Automating Deployment with CI/CD
+4.1 Automating Deployment with CI/CD
 
    - Set up CodePipeline for automated deployment.
    - Integrate GitHub/GitLab for version control.
    - Use Docker to containerize the backend and deploy on EC2.
 
-   4.2 Monitoring & Logging with CloudWatch
+4.2 Monitoring & Logging with CloudWatch
 
    - Enable CloudWatch Logs for API requests, Lambda executions.
    - Set up CloudWatch Alarms for performance issues.
