@@ -6,7 +6,7 @@ A Cloud-Kitchen is a cloud-based kitchen management platform designed to streaml
 
 **Step-by-Step Process**
 
-1. Define System Requirements and Architecture
+**1. Define System Requirements and Architecture**
 
 1.1 Core Functionalities
 
