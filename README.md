@@ -4,7 +4,7 @@
 
 A Cloud-Kitchen is a cloud-based kitchen management platform designed to streamline food delivery operations. It uses microservices architecture and leverages AWS cloud services for scalability, automation, and monitoring.
 
-##**Step-by-Step Process**
+**Step-by-Step Process**
 
 1. Define System Requirements and Architecture
 
@@ -106,7 +106,6 @@ exports.handler = async (event) => {
 - Regularly update dependencies & security patches.
 
 
-
-##Conclusion
+Conclusion
 
 This Cloud-Kitchen project provides a scalable, automated platform for managing food delivery operations using AWS microservices. It ensures high availability, security, and efficiency through EC2, API Gateway, Lambda, RDS, and CloudWatch.
