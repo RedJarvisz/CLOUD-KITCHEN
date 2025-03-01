@@ -1,6 +1,6 @@
-# CLOUD-KITCHEN
+# Smart Cloud Kitchen: Scalable Food Delivery Management on AWS
 
-**Project Overview: Cloud-Kitchen**
+**Project Overview: Smart Cloud Kitchen**
 
 A Cloud-Kitchen is a cloud-based kitchen management platform designed to streamline food delivery operations. It uses microservices architecture and leverages AWS cloud services for scalability, automation, and monitoring.
 
